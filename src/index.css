@@ -1,0 +1,56 @@
+.navbar a:hover{
+    color:blue !important;  
+}
+
+.navbar-brand{
+    color: rgb(49, 24, 15) !important;
+    
+    font-size: 150%;
+}
+#mysize{
+    font-size: small;
+}
+.active-manu{
+    font-weight: bold;
+    border-bottom: 1px solid#ac4806;
+}
+
+.size{
+    border-radius: 3px;
+}
+
+.brand-name{
+    color: rgb(61, 19, 129) !important;
+    font-weight: bold;
+    font-size: 100%;
+
+}  
+#header .btn-get-started{
+  font-weight: 500;
+  font-size: 16px;
+  color: #3498db;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 10px 30px;
+  border-radius: 50px;
+  transition: 0.5s;
+  border: 2px solid #3498db;
+  text-decoration: none;
+}
+
+#header .btn-get-started:hover{
+    background: #3498db;
+    color:#fff;
+}
+#header.animated{
+    animation: up-down 2s ease-in-out infinite alternate-reverse both;
+}
+
+/* @-webkit-keyframes up-down{
+0%{
+    transform: translateY(10px);
+}
+100%{
+    transform:translateY(-10px) ;
+}
+} */
